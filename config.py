@@ -71,7 +71,7 @@ if WEBAPP_URL and not WEBAPP_URL.startswith("http"):
 # Monetag SDK settings - copy them from the script Monetag gives you:
 #   <script src='//libtl.com/sdk.js' data-zone='10396377' data-sdk='show_10396377'></script>
 #                 ^ MONETAG_SDK_URL            ^ MONETAG_ZONE          ^ MONETAG_SDK
-MONETAG_ZONE = os.environ.get("MONETAG_ZONE", "10396377").strip()
+MONETAG_ZONE = os.environ.get("MONETAG_ZONE", "11027550").strip()
 MONETAG_SDK = os.environ.get("MONETAG_SDK", "").strip() or f"show_{MONETAG_ZONE}"
 MONETAG_SDK_URL = os.environ.get("MONETAG_SDK_URL", "//libtl.com/sdk.js").strip()
 
